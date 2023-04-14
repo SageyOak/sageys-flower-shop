@@ -26,12 +26,14 @@ h1, h2,p  {
 }
 
 .container .content {
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .top-nav {
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 2rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .top-nav a {
@@ -52,10 +54,13 @@ h1, h2,p  {
     top: 0;
     bottom: 0;
     z-index: -1;
+    width: 100vw;
 }
 
 .content {
     text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .cta-btn a {
@@ -74,3 +79,20 @@ h1, h2,p  {
 .cta-btn a:hover {
    background-color: #90A1AB !important;
 }
+
+/* @media only screen and (max-width: 425px)  {
+    .cta-btn a {
+        background-color: red;
+    }
+} */
+
+@media only screen and (min-width: 1440px) {
+    .container .content {
+        margin-top: 5rem;
+    }
+    .top-nav {
+        margin-top: 15rem;
+    }
+}
+
+
