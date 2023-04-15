@@ -9,12 +9,22 @@
 body {
     overflow: hidden; 
     font-family: 'Inter', sans-serif;
+    background-color: #231f1b;
+
 }
 
+.img-flower{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 30px;
+    left:7em;
+}
 h1 {
     font-size: 3em !important;
     margin-bottom: 1rem ;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 17rem;
 }
 
 h2 {
@@ -25,6 +35,8 @@ h1, h2,p  {
     color: #F7F7F7;
     line-height: 2.5rem;
     font-size: 1.15em;
+    text-align: left;
+    margin-left: 8rem;
 }
 
 .container .content {
@@ -64,7 +76,10 @@ h1, h2,p  {
     margin-left: auto !important;
     margin-right: auto !important;
 }
-
+.cta-btn {
+    text-align: left;
+    margin-left: 8rem;
+}
 .cta-btn a {
     text-decoration: none;
     background-color:#9DACB5;
@@ -83,7 +98,7 @@ h1, h2,p  {
 }
 
 /* tablet mobile  */
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 916px)  {
     body {
         background-color: #231f1b;
     }
@@ -96,10 +111,18 @@ h1, h2,p  {
     h1 {
         font-size: 1.49em !important;
         color: #fff;
+        text-align: left;
+        margin-left: .1rem;
+        margin-top: 6rem;
     }
     p, h2 {
         color: #fff;
-        font-size: .8em;
+        font-size: .77em;
+        text-align: left;
+        margin-left: .1rem;
+    }
+    p{
+        width: 75%;
     }
     h2 {
        color: #9DACB5;
@@ -110,9 +133,23 @@ h1, h2,p  {
         line-height: 6rem;
         font-size: .8em;
     }
+    .cta-btn {
+        text-align: left;
+        margin-left: .1rem;
+    }
     .top-nav a {
-        color: #fff;
         font-size: 1.35em;
+        width: 70;
+        display: block;
+        padding-bottom: 1.5rem;
+        text-transform: lowercase;
+    }
+    
+    video {
+        display: none;
+    }
+    .img-flower{
+        display: none;
     }
 }
 
@@ -123,6 +160,16 @@ h1, h2,p  {
     }
     .top-nav {
         margin-top: 15rem;
+    }
+    .img-flower{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 90px;
+        left:10em;
+    }
+    h1{
+        margin-top: 7rem;
     }
 }
 
