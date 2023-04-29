@@ -9,7 +9,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #231f1b;
-
+    overflow: hidden;
 }
 
 .img-flower{
